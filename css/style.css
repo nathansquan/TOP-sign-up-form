@@ -13,10 +13,13 @@ body {
 }
 
 .background {
+    display: flex;
+    flex-direction: column;
     background-image: url("../img/background.jpg");
     height: 100vh;
     flex-shrink: 0;
     flex-basis: 40%;
+    justify-content: space-between;
 }
 
 .logo {
@@ -36,6 +39,17 @@ img {
     font: 5em "Norse-Bold";
     color: #ffffff;
     margin: 0;
+}
+
+.img-credit {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+.img-credit a {
+    color: #ffffff;
 }
 
 .content {
