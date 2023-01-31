@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("../fonts/norse-bold-webfont.woff2") format("woff2"),  
+        url("../fonts/norse-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    background-image: url("../img/background.jpg");
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+img {
+    height: 100px;
+}
+
+.logo p {
+    font: 5em "Norse-Bold";
+    color: #ffffff;
+    margin: 0;
+}
+
+.content {
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.disclaimer,
+.create-login-account {
+    background-color: #f9fafb;
+    padding-left: 100px;
+}
+
+.disclaimer {
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+
+
+.form-input {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px grey;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
