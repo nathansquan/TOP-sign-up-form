@@ -94,18 +94,26 @@ label {
 }
 
 .form-row {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     display: flex;
 }
 
-.form-row input[type='text'] {
+.form-row input {
     width: 250px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
 }
+
+.form-row input[type='password']:invalid {
+    border: 1px solid #db8c8c;
+}
+
+
 
 .form-row div {
     display: flex;
     flex-direction: column;
-    margin-right: 70px;
+    padding-right: 70px;
 }
 
 
