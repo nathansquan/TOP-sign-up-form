@@ -33,23 +33,36 @@
             <form>
                 <div class="form-input">
                     <h3>Let's do this!</h3>
-                    <label for="user_first_name">FIRST NAME</label>
-                    <input type="text" id="user_first_name" name="first-name">
-
-                    <label for="user_last_name">LAST NAME</label>
-                    <input type="text" id="user_last_name" name="last-name">
-
-                    <label for="user_email">EMAIL</label>
-                    <input type="text" id="user_email" name="email">
-
-                    <label for="user_phone">PHONE NUMBER</label>
-                    <input type="text" id="user_phone" name="phone">
-
-                    <label for="user_pw">PASSWORD</label>
-                    <input type="text" id="user_pw" name="password">
-
-                    <label for="user_confirm_pw">CONFIRM PASSWORD</label>
-                    <input type="text" id="user_confirm_pw" name="confirm-password">
+                    <div class="form-row" id="form-row-1">
+                        <div id="first-name">
+                            <label for="user_first_name">FIRST NAME</label>
+                            <input type="text" id="user_first_name" name="first-name">
+                        </div>
+                        <div id="last-name">
+                            <label for="user_last_name">LAST NAME</label>
+                            <input type="text" id="user_last_name" name="last-name">
+                        </div>
+                    </div>
+                    <div class="form-row" id="form-row-2">
+                        <div id="email">
+                            <label for="user_email">EMAIL</label>
+                            <input type="text" id="user_email" name="email">
+                        </div>
+                        <div id="phone">
+                            <label for="user_phone">PHONE NUMBER</label>
+                            <input type="text" id="user_phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-row" id="form-row-3">
+                        <div id="pw">
+                            <label for="user_pw">PASSWORD</label>
+                            <input type="text" id="user_pw" name="password">
+                        </div>
+                        <div id="confirm-pw">
+                            <label for="user_confirm_pw">CONFIRM PASSWORD</label>
+                            <input type="text" id="user_confirm_pw" name="confirm-password">
+                        </div>
+                    </div>
                 </div>
                 <div class="create-login-account">
                     <button type="submit">Create Account</button> 

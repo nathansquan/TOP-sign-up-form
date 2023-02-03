@@ -63,7 +63,7 @@ h3 {
 
 .disclaimer,
 .create-login-account {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .disclaimer {
@@ -76,9 +76,38 @@ h3 {
 .form-input {
     background-color: #ffffff;
     box-shadow: 0px 1px 5px grey;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-top: 20px;
 }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+label {
+  font-family: inherit;
+  font-size: 80%;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-row input[type='text'] {
+    width: 250px;
+}
+
+.form-row div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
 
 .create-login-account button {
     background-color: #596d48;
@@ -101,3 +130,4 @@ h3 {
     text-decoration: none;
     color: #596D48;
 }
+
