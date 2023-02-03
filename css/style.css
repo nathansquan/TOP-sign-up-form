@@ -105,7 +105,13 @@ label {
 }
 
 .form-row input[type='password']:invalid {
-    border: 1px solid #db8c8c;
+    border: 2px solid #db8c8c;
+}
+
+.form-row input:focus {
+    outline: none;
+    border: 2px solid #88a0e6;
+    box-shadow: 1px 1px 2px grey;
 }
 
 
